@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p, h1, h2 {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.sign-up {
+    width: 120px;
+    height: 36px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.action .sign-up {
+    width: 120px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header, .hero-section, footer {
+    background-color: #1F2937;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0 0;
+}
+
+header a, .hero-section p, footer p {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.action {
+    background-color: #3882F6;
+}
+
+.action button {
+    border: #FFFFFF;
+}
+
+header {
+    padding: 0 128px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-section {
+    height: 600px;
+    padding: 0 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.hero-section img {
+    width: 625px;
+    height: 325px;
+    object-fit: cover;
+}
+
+.hero-content,
+.hero-image {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-section p {
+    margin: 0;
+}
+
+.information {
+    padding: 48px 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    text-align: center;
+}
+
+.information-items {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.information-items img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.quote {
+    padding: 100px 128px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote .author {
+    font-weight: bold;
+    font-style: normal;
+    text-align: right;
+}
+
+.action {
+    margin: 128px;
+    padding: 24px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.action 
+h2, p {
+    margin: 0px;
+}
+
+footer {
+    height: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
